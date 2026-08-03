@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercializadora y Pasabocas Fritos JS S.A.S</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">
+                <img src="logo.png" alt="Logo Fritos JS" class="logo-img">
+                <span>Fritos JS S.A.S</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#documentos">Documentos</a></li>
+                <li><a href="#formularios">Formularios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-logo-wrap">
+                <img src="logo.png" alt="Logo Comercializadora y Pasabocas Fritos JS S.A.S" class="hero-logo">
+            </div>
+            <h1>Comercializadora y Pasabocas Fritos JS S.A.S</h1>
+            <p class="hero-subtitle">Calidad y sabor en cada producto. Plataforma corporativa de acceso rápido a documentos y formularios SST.</p>
+            <div class="hero-buttons">
+                <a href="#formularios" class="btn btn-primary"><i class="fas fa-file-alt"></i> Acceder a Formularios</a>
+                <a href="#documentos" class="btn btn-secondary"><i class="fas fa-folder-open"></i> Ver Documentos</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Bienvenidos a nuestra plataforma</h2>
+            <p class="section-description">
+                Este es el portal oficial de <strong>Comercializadora y Pasabocas Fritos JS S.A.S</strong>,
+                diseñado para facilitar el acceso a documentos importantes, formularios de Seguridad y
+                Salud en el Trabajo (SST) y otros recursos corporativos.
+            </p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Seguridad y Salud</h3>
+                    <p>Comprometidos con la seguridad y bienestar de nuestro equipo de trabajo.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-award"></i></div>
+                    <h3>Calidad Garantizada</h3>
+                    <p>Productos elaborados con los más altos estándares de calidad.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Trabajo en Equipo</h3>
+                    <p>Colaboradores comprometidos con la excelencia y la mejora continua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="documents" id="documentos">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-folder"></i> Documentos Corporativos</h2>
+            <p class="section-description">
+                Accede a la carpeta oficial de documentos de la empresa.
+            </p>
+            <div class="drive-container">
+                <iframe 
+                    src="https://drive.google.com/embeddedfolderview?id=193xsn2NZ0j8hsGuI-HpovB4azBzfsDWV#grid" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"
+                    class="drive-iframe">
+                </iframe>
+                <div class="drive-link-container">
+                    <a href="https://drive.google.com/drive/folders/193xsn2NZ0j8hsGuI-HpovB4azBzfsDWV?usp=sharing" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn btn-full">
+                        <i class="fab fa-google-drive"></i> Abrir en Google Drive
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="forms-section" id="formularios">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-clipboard-list"></i> Formularios Digitales</h2>
+            <p class="section-description">
+                Completa los siguientes formularios según corresponda. Todos son obligatorios para el cumplimiento de los procesos de SST.
+            </p>
+            <div class="forms-grid">
+                <div class="form-card">
+                    <div class="form-card-header pqrs">
+                        <i class="fas fa-comments"></i>
+                        <h3>Buzón Digital PQRSDF</h3>
+                    </div>
+                    <div class="form-card-body">
+                        <p>Canal oficial para presentar Peticiones, Quejas, Reclamos, Sugerencias, Denuncias y Felicitaciones.</p>
+                        <ul class="form-features">
+                            <li><i class="fas fa-check-circle"></i> Confidencial</li>
+                            <li><i class="fas fa-check-circle"></i> Respuesta oportuna</li>
+                            <li><i class="fas fa-check-circle"></i> Anónimo o identificado</li>
+                        </ul>
+                        <a href="https://forms.gle/gn2qWdkM7ZysjWgB8" target="_blank" rel="noopener noreferrer" class="btn btn-full">
+                            <i class="fas fa-external-link-alt"></i> Completar Formulario
+                        </a>
+                    </div>
+                </div>
+
+                <div class="form-card">
+                    <div class="form-card-header safety">
+                        <i class="fas fa-hard-hat"></i>
+                        <h3>Reporte Actos y Condiciones Seguras e Inseguras</h3>
+                    </div>
+                    <div class="form-card-body">
+                        <p>Reporta situaciones de riesgo o comportamientos seguros en el área de trabajo.</p>
+                        <ul class="form-features">
+                            <li><i class="fas fa-check-circle"></i> Prevención de accidentes</li>
+                            <li><i class="fas fa-check-circle"></i> Mejora continua</li>
+                            <li><i class="fas fa-check-circle"></i> Cultura de seguridad</li>
+                        </ul>
+                        <a href="https://forms.gle/JfN6NZh3Fmp6u7Hj9" target="_blank" rel="noopener noreferrer" class="btn btn-full">
+                            <i class="fas fa-external-link-alt"></i> Completar Formulario
+                        </a>
+                    </div>
+                </div>
+
+                <div class="form-card">
+                    <div class="form-card-header induction">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Inducción - Reinducción SST</h3>
+                    </div>
+                    <div class="form-card-body">
+                        <p>Formulario obligatorio para nuevos colaboradores y reinducción en Seguridad y Salud en el Trabajo.</p>
+                        <ul class="form-features">
+                            <li><i class="fas fa-check-circle"></i> Colaboradores nuevos</li>
+                            <li><i class="fas fa-check-circle"></i> Contratistas</li>
+                            <li><i class="fas fa-check-circle"></i> Visitantes</li>
+                        </ul>
+                        <a href="https://forms.gle/Tc9r368USR4s3vkm8" target="_blank" rel="noopener noreferrer" class="btn btn-full">
+                            <i class="fas fa-external-link-alt"></i> Completar Formulario
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3><img src="logo.png" alt="Logo" class="footer-logo"> Fritos JS S.A.S</h3>
+                    <p>Comercializadora y Pasabocas Fritos JS S.A.S - Comprometidos con la calidad y la seguridad.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio"><i class="fas fa-angle-right"></i> Inicio</a></li>
+                        <li><a href="#documentos"><i class="fas fa-angle-right"></i> Documentos</a></li>
+                        <li><a href="#formularios"><i class="fas fa-angle-right"></i> Formularios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Formularios SST</h3>
+                    <ul>
+                        <li><a href="https://forms.gle/gn2qWdkM7ZysjWgB8" target="_blank"><i class="fas fa-angle-right"></i> PQRSDF</a></li>
+                        <li><a href="https://forms.gle/JfN6NZh3Fmp6u7Hj9" target="_blank"><i class="fas fa-angle-right"></i> Actos y Condiciones</a></li>
+                        <li><a href="https://forms.gle/Tc9r368USR4s3vkm8" target="_blank"><i class="fas fa-angle-right"></i> Inducción SST</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@fritosjs.com</li>
+                        <li><i class="fas fa-phone"></i> +57 000 000 0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Comercializadora y Pasabocas Fritos JS S.A.S. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            const icon = navToggle.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                const icon = navToggle.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-times');
+            });
+        });
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.feature-card, .form-card').forEach(el => {
+            el.classList.add('fade-in');
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
