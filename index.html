@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f6a511">
     <title>Comercializadora y Pasabocas Fritos JS S.A.S</title>
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,14 +19,13 @@
                 <img src="logo.png" alt="Logo Fritos JS" class="logo-img">
                 <span>Fritos JS S.A.S</span>
             </a>
-            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#documentos">Documentos</a></li>
                 <li><a href="#formularios">Formularios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#documentos">Documentos</a></li>
             </ul>
         </div>
     </nav>
@@ -72,32 +72,7 @@
         </div>
     </section>
 
-    <section class="documents" id="documentos">
-        <div class="container">
-            <h2 class="section-title"><i class="fas fa-folder"></i> Documentos Corporativos</h2>
-            <p class="section-description">
-                Accede a la carpeta oficial de documentos de la empresa.
-            </p>
-            <div class="drive-container">
-                <iframe 
-                    src="https://drive.google.com/embeddedfolderview?id=193xsn2NZ0j8hsGuI-HpovB4azBzfsDWV#grid" 
-                    width="100%" 
-                    height="500" 
-                    frameborder="0"
-                    class="drive-iframe">
-                </iframe>
-                <div class="drive-link-container">
-                    <a href="https://drive.google.com/drive/folders/193xsn2NZ0j8hsGuI-HpovB4azBzfsDWV?usp=sharing" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="btn btn-full">
-                        <i class="fab fa-google-drive"></i> Abrir en Google Drive
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- PRIMERO: FORMULARIOS -->
     <section class="forms-section" id="formularios">
         <div class="container">
             <h2 class="section-title"><i class="fas fa-clipboard-list"></i> Formularios Digitales</h2>
@@ -162,7 +137,35 @@
         </div>
     </section>
 
-    <footer class="footer" id="contacto">
+    <!-- SEGUNDO: DOCUMENTOS -->
+    <section class="documents" id="documentos">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-folder"></i> Documentos Corporativos</h2>
+            <p class="section-description">
+                Accede a la carpeta oficial de documentos de la empresa.
+            </p>
+            <div class="drive-container">
+                <iframe 
+                    src="https://drive.google.com/embeddedfolderview?id=193xsn2NZ0j8hsGuI-HpovB4azBzfsDWV#grid" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"
+                    class="drive-iframe"
+                    title="Documentos corporativos en Google Drive">
+                </iframe>
+                <div class="drive-link-container">
+                    <a href="https://drive.google.com/drive/folders/193xsn2NZ0j8hsGuI-HpovB4azBzfsDWV?usp=sharing" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="btn btn-full">
+                        <i class="fab fa-google-drive"></i> Abrir en Google Drive
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
@@ -173,8 +176,8 @@
                     <h3>Enlaces Rápidos</h3>
                     <ul>
                         <li><a href="#inicio"><i class="fas fa-angle-right"></i> Inicio</a></li>
-                        <li><a href="#documentos"><i class="fas fa-angle-right"></i> Documentos</a></li>
                         <li><a href="#formularios"><i class="fas fa-angle-right"></i> Formularios</a></li>
+                        <li><a href="#documentos"><i class="fas fa-angle-right"></i> Documentos</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -183,13 +186,6 @@
                         <li><a href="https://forms.gle/gn2qWdkM7ZysjWgB8" target="_blank"><i class="fas fa-angle-right"></i> PQRSDF</a></li>
                         <li><a href="https://forms.gle/JfN6NZh3Fmp6u7Hj9" target="_blank"><i class="fas fa-angle-right"></i> Actos y Condiciones</a></li>
                         <li><a href="https://forms.gle/Tc9r368USR4s3vkm8" target="_blank"><i class="fas fa-angle-right"></i> Inducción SST</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Contacto</h3>
-                    <ul>
-                        <li><i class="fas fa-envelope"></i> info@fritosjs.com</li>
-                        <li><i class="fas fa-phone"></i> +57 000 000 0000</li>
                     </ul>
                 </div>
             </div>
