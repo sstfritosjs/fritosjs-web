@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
+    <div class="topline"><div class="topline-inner"><span><i class="fas fa-bullhorn"></i> Portal de información y gestión interna</span><span>SEGURIDAD · CALIDAD · BIENESTAR</span></div></div>
+<nav class="navbar">
         <div class="nav-container">
             <a href="#inicio" class="logo">
                 <img src="logo.png" alt="Logo Fritos JS" class="logo-img">
@@ -32,6 +33,8 @@
 
     <header class="hero" id="inicio">
         <div class="hero-content">
+            <div class="hero-copy">
+            <span class="eyebrow">BIENVENIDO AL PORTAL CORPORATIVO</span>
             <div class="hero-logo-wrap">
                 <img src="logo.png" alt="Logo Comercializadora y Pasabocas Fritos JS S.A.S" class="hero-logo">
             </div>
@@ -41,6 +44,7 @@
                 <a href="#formularios" class="btn btn-primary"><i class="fas fa-file-alt"></i> Acceder a Formularios</a>
                 <a href="#documentos" class="btn btn-secondary"><i class="fas fa-folder-open"></i> Ver Documentos</a>
             </div>
+            <aside class="hero-note"><i class="fas fa-bolt"></i><h3>Todo en un solo lugar</h3><p>Accede rápidamente a los canales de reporte, formularios y documentos de la compañía.</p><a href="#formularios">Explorar accesos <i class="fas fa-arrow-right"></i></a></aside>
         </div>
     </header>
 
@@ -52,6 +56,7 @@
                 diseñado para facilitar el acceso a documentos importantes, formularios de Seguridad y
                 Salud en el Trabajo (SST) y otros recursos corporativos.
             </p>
+            <div class="section-kicker">NUESTRO COMPROMISO</div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
@@ -77,8 +82,9 @@
         <div class="container">
             <h2 class="section-title"><i class="fas fa-clipboard-list"></i> Formularios Digitales</h2>
             <p class="section-description">
-                Completa los siguientes formularios según corresponda. Todos son obligatorios para el cumplimiento de los procesos de SST.
+                Selecciona el canal que necesitas. Cada formulario está organizado para facilitar tus reportes y solicitudes.
             </p>
+            <div class="forms-intro"><span><i class="fas fa-circle-check"></i> Accesos directos</span><span>Disponibles desde computador o celular</span></div>
             <div class="forms-grid">
                 <div class="form-card">
                     <div class="form-card-header pqrs">
@@ -116,6 +122,24 @@
                 </div>
 
                 <div class="form-card">
+                    <div class="form-card-header convivencia">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Buzón Digital de Quejas - Comité de Convivencia Laboral</h3>
+                    </div>
+                    <div class="form-card-body">
+                        <p>Canal confidencial para presentar quejas relacionadas con la convivencia laboral y ponerlas en conocimiento del Comité de Convivencia Laboral.</p>
+                        <ul class="form-features">
+                            <li><i class="fas fa-check-circle"></i> Atención confidencial</li>
+                            <li><i class="fas fa-check-circle"></i> Promoción del buen trato</li>
+                            <li><i class="fas fa-check-circle"></i> Gestión por el Comité</li>
+                        </ul>
+                        <a href="https://forms.gle/Aj2kce6gySi9KVfD7" target="_blank" rel="noopener noreferrer" class="btn btn-full">
+                            <i class="fas fa-external-link-alt"></i> Presentar Queja
+                        </a>
+                    </div>
+                </div>
+
+                <div class="form-card">
                     <div class="form-card-header induction">
                         <i class="fas fa-graduation-cap"></i>
                         <h3>Inducción - Reinducción SST</h3>
@@ -143,6 +167,7 @@
             <p class="section-description">
                 Accede a la carpeta oficial de documentos de la empresa.
             </p>
+            <div class="documents-callout"><i class="fab fa-google-drive"></i><div><strong>Biblioteca corporativa</strong><p>Consulta los documentos y recursos compartidos por la empresa.</p></div></div>
             <div class="drive-container">
                 <iframe 
                     src="https://drive.google.com/embeddedfolderview?id=193xsn2NZ0j8hsGuI-HpovB4azBzfsDWV#grid" 
@@ -166,6 +191,7 @@
 
     <footer class="footer">
         <div class="container">
+            <div class="footer-banner"><div><span>FRITOS JS S.A.S.</span><strong>Trabajamos con calidad, seguridad y compromiso.</strong></div><a href="#inicio">Volver al inicio ↑</a></div>
             <div class="footer-content">
                 <div class="footer-col">
                     <h3><img src="logo.png" alt="Logo" class="footer-logo"> Fritos JS S.A.S</h3>
@@ -182,9 +208,10 @@
                 <div class="footer-col">
                     <h3>Formularios SST</h3>
                     <ul>
-                        <li><a href="https://forms.gle/gn2qWdkM7ZysjWgB8" target="_blank"><i class="fas fa-angle-right"></i> PQRSDF</a></li>
-                        <li><a href="https://forms.gle/JfN6NZh3Fmp6u7Hj9" target="_blank"><i class="fas fa-angle-right"></i> Actos y Condiciones</a></li>
-                        <li><a href="https://forms.gle/Tc9r368USR4s3vkm8" target="_blank"><i class="fas fa-angle-right"></i> Inducción SST</a></li>
+                        <li><a href="https://forms.gle/gn2qWdkM7ZysjWgB8" target="_blank" rel="noopener noreferrer"><i class="fas fa-angle-right"></i> PQRSDF</a></li>
+                        <li><a href="https://forms.gle/JfN6NZh3Fmp6u7Hj9" target="_blank" rel="noopener noreferrer"><i class="fas fa-angle-right"></i> Actos y Condiciones</a></li>
+                        <li><a href="https://forms.gle/Tc9r368USR4s3vkm8" target="_blank" rel="noopener noreferrer"><i class="fas fa-angle-right"></i> Inducción SST</a></li>
+                        <li><a href="https://forms.gle/Aj2kce6gySi9KVfD7" target="_blank" rel="noopener noreferrer"><i class="fas fa-angle-right"></i> Quejas - Comité de Convivencia</a></li>
                     </ul>
                 </div>
             </div>
